@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F118736F28AB529300417DF9 /* VideoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118736E28AB529300417DF9 /* VideoComponent.swift */; };
+		F11974C928ACBE3F0064A0B2 /* AddAcconutSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11974C828ACBE3F0064A0B2 /* AddAcconutSheetView.swift */; };
+		F11974CB28ACCFEC0064A0B2 /* AccountSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11974CA28ACCFEC0064A0B2 /* AccountSearchView.swift */; };
+		F11F7C66289DE5CF00A573AD /* BILIBILI_UP_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C65289DE5CF00A573AD /* BILIBILI_UP_HelperApp.swift */; };
+		F11F7C68289DE5CF00A573AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C67289DE5CF00A573AD /* ContentView.swift */; };
+		F11F7C6A289DE5D000A573AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11F7C69289DE5D000A573AD /* Assets.xcassets */; };
+		F11F7C6D289DE5D000A573AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11F7C6C289DE5D000A573AD /* Preview Assets.xcassets */; };
+		F11F7C6F289DE5D000A573AD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C6E289DE5D000A573AD /* Persistence.swift */; };
+		F11F7C7C289DEF5B00A573AD /* AccountDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C7B289DEF5B00A573AD /* AccountDataModel.swift */; };
+		F11F7C7E289DF3CD00A573AD /* AccountDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C7D289DF3CD00A573AD /* AccountDataListView.swift */; };
+		F11F7C81289E3DB300A573AD /* AccountComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C80289E3DB300A573AD /* AccountComponent.swift */; };
+		F11F7C83289E624B00A573AD /* AccountVideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C82289E624B00A573AD /* AccountVideoListView.swift */; };
+		F11F7C85289E631400A573AD /* AccountVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F7C84289E631400A573AD /* AccountVideoModel.swift */; };
+		F15A83FF28A76C3E0096F71F /* BILIBILI_UP_Helper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F15A83FB28A761220096F71F /* BILIBILI_UP_Helper.xcdatamodeld */; };
+		F199449028C8F729001D8739 /* CustomURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199448F28C8F729001D8739 /* CustomURLSession.swift */; };
+		F199449228C8F976001D8739 /* VideoDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199449128C8F976001D8739 /* VideoDetailModel.swift */; };
+		F199449428C8F9EF001D8739 /* DownloadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199449328C8F9EF001D8739 /* DownloadListView.swift */; };
+		F199449628C8FC83001D8739 /* VideoURLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199449528C8FC83001D8739 /* VideoURLModel.swift */; };
+		F199449928C90EEB001D8739 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199449828C90EEB001D8739 /* CustomButtonStyle.swift */; };
+		F1D374C728AC820300181BBA /* PlayVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D374C628AC820300181BBA /* PlayVideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F118736E28AB529300417DF9 /* VideoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoComponent.swift; sourceTree = "<group>"; };
+		F11974C828ACBE3F0064A0B2 /* AddAcconutSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAcconutSheetView.swift; sourceTree = "<group>"; };
+		F11974CA28ACCFEC0064A0B2 /* AccountSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSearchView.swift; sourceTree = "<group>"; };
+		F11F7C62289DE5CF00A573AD /* BILIBILI UP Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BILIBILI UP Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11F7C65289DE5CF00A573AD /* BILIBILI_UP_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BILIBILI_UP_HelperApp.swift; sourceTree = "<group>"; };
+		F11F7C67289DE5CF00A573AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F11F7C69289DE5D000A573AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11F7C6C289DE5D000A573AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F11F7C6E289DE5D000A573AD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F11F7C7B289DEF5B00A573AD /* AccountDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataModel.swift; sourceTree = "<group>"; };
+		F11F7C7D289DF3CD00A573AD /* AccountDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataListView.swift; sourceTree = "<group>"; };
+		F11F7C7F289E163900A573AD /* BILIBILI-UP-Helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BILIBILI-UP-Helper-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F11F7C80289E3DB300A573AD /* AccountComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountComponent.swift; sourceTree = "<group>"; };
+		F11F7C82289E624B00A573AD /* AccountVideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVideoListView.swift; sourceTree = "<group>"; };
+		F11F7C84289E631400A573AD /* AccountVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVideoModel.swift; sourceTree = "<group>"; };
+		F15A83FC28A761220096F71F /* BILIBILI_UP_ Helper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BILIBILI_UP_ Helper.xcdatamodel"; sourceTree = "<group>"; };
+		F199448F28C8F729001D8739 /* CustomURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLSession.swift; sourceTree = "<group>"; };
+		F199449128C8F976001D8739 /* VideoDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailModel.swift; sourceTree = "<group>"; };
+		F199449328C8F9EF001D8739 /* DownloadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListView.swift; sourceTree = "<group>"; };
+		F199449528C8FC83001D8739 /* VideoURLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoURLModel.swift; sourceTree = "<group>"; };
+		F199449828C90EEB001D8739 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		F1D374C628AC820300181BBA /* PlayVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11F7C5F289DE5CF00A573AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11F7C59289DE5CF00A573AD = {
+			isa = PBXGroup;
+			children = (
+				F11F7C64289DE5CF00A573AD /* BILIBILI UP Helper */,
+				F11F7C63289DE5CF00A573AD /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		F11F7C63289DE5CF00A573AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C62289DE5CF00A573AD /* BILIBILI UP Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11F7C64289DE5CF00A573AD /* BILIBILI UP Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C7F289E163900A573AD /* BILIBILI-UP-Helper-Info.plist */,
+				F11F7C78289DE77C00A573AD /* FetchData */,
+				F11F7C65289DE5CF00A573AD /* BILIBILI_UP_HelperApp.swift */,
+				F11F7C67289DE5CF00A573AD /* ContentView.swift */,
+				F199449728C90ED5001D8739 /* Style */,
+				F11F7C69289DE5D000A573AD /* Assets.xcassets */,
+				F11F7C6E289DE5D000A573AD /* Persistence.swift */,
+				F15A83FB28A761220096F71F /* BILIBILI_UP_Helper.xcdatamodeld */,
+				F11F7C6B289DE5D000A573AD /* Preview Content */,
+			);
+			path = "BILIBILI UP Helper";
+			sourceTree = "<group>";
+		};
+		F11F7C6B289DE5D000A573AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C6C289DE5D000A573AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F11F7C78289DE77C00A573AD /* FetchData */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C87289E636800A573AD /* Component */,
+				F11F7C86289E631D00A573AD /* Model */,
+				F11F7C79289DE78B00A573AD /* View */,
+			);
+			path = FetchData;
+			sourceTree = "<group>";
+		};
+		F11F7C79289DE78B00A573AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C7D289DF3CD00A573AD /* AccountDataListView.swift */,
+				F11F7C82289E624B00A573AD /* AccountVideoListView.swift */,
+				F1D374C628AC820300181BBA /* PlayVideoView.swift */,
+				F11974C828ACBE3F0064A0B2 /* AddAcconutSheetView.swift */,
+				F11974CA28ACCFEC0064A0B2 /* AccountSearchView.swift */,
+				F199449328C8F9EF001D8739 /* DownloadListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F11F7C86289E631D00A573AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C7B289DEF5B00A573AD /* AccountDataModel.swift */,
+				F11F7C84289E631400A573AD /* AccountVideoModel.swift */,
+				F199448F28C8F729001D8739 /* CustomURLSession.swift */,
+				F199449128C8F976001D8739 /* VideoDetailModel.swift */,
+				F199449528C8FC83001D8739 /* VideoURLModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F11F7C87289E636800A573AD /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F11F7C80289E3DB300A573AD /* AccountComponent.swift */,
+				F118736E28AB529300417DF9 /* VideoComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F199449728C90ED5001D8739 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				F199449828C90EEB001D8739 /* CustomButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11F7C61289DE5CF00A573AD /* BILIBILI UP Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11F7C75289DE5D000A573AD /* Build configuration list for PBXNativeTarget "BILIBILI UP Helper" */;
+			buildPhases = (
+				F11F7C5E289DE5CF00A573AD /* Sources */,
+				F11F7C5F289DE5CF00A573AD /* Frameworks */,
+				F11F7C60289DE5CF00A573AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BILIBILI UP Helper";
+			productName = "BILIBILI UP Helper";
+			productReference = F11F7C62289DE5CF00A573AD /* BILIBILI UP Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11F7C5A289DE5CF00A573AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F11F7C61289DE5CF00A573AD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F11F7C5D289DE5CF00A573AD /* Build configuration list for PBXProject "BILIBILI UP Helper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F11F7C59289DE5CF00A573AD;
+			productRefGroup = F11F7C63289DE5CF00A573AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11F7C61289DE5CF00A573AD /* BILIBILI UP Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11F7C60289DE5CF00A573AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11F7C6D289DE5D000A573AD /* Preview Assets.xcassets in Resources */,
+				F11F7C6A289DE5D000A573AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11F7C5E289DE5CF00A573AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F199449928C90EEB001D8739 /* CustomButtonStyle.swift in Sources */,
+				F199449428C8F9EF001D8739 /* DownloadListView.swift in Sources */,
+				F199449228C8F976001D8739 /* VideoDetailModel.swift in Sources */,
+				F11974CB28ACCFEC0064A0B2 /* AccountSearchView.swift in Sources */,
+				F11F7C6F289DE5D000A573AD /* Persistence.swift in Sources */,
+				F11F7C7E289DF3CD00A573AD /* AccountDataListView.swift in Sources */,
+				F11F7C81289E3DB300A573AD /* AccountComponent.swift in Sources */,
+				F11F7C85289E631400A573AD /* AccountVideoModel.swift in Sources */,
+				F1D374C728AC820300181BBA /* PlayVideoView.swift in Sources */,
+				F11F7C68289DE5CF00A573AD /* ContentView.swift in Sources */,
+				F199449628C8FC83001D8739 /* VideoURLModel.swift in Sources */,
+				F11974C928ACBE3F0064A0B2 /* AddAcconutSheetView.swift in Sources */,
+				F118736F28AB529300417DF9 /* VideoComponent.swift in Sources */,
+				F11F7C83289E624B00A573AD /* AccountVideoListView.swift in Sources */,
+				F11F7C66289DE5CF00A573AD /* BILIBILI_UP_HelperApp.swift in Sources */,
+				F15A83FF28A76C3E0096F71F /* BILIBILI_UP_Helper.xcdatamodeld in Sources */,
+				F11F7C7C289DEF5B00A573AD /* AccountDataModel.swift in Sources */,
+				F199449028C8F729001D8739 /* CustomURLSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F11F7C73289DE5D000A573AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11F7C74289DE5D000A573AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11F7C76289DE5D000A573AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BILIBILI UP Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = PQ97K9KW8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BILIBILI-UP-Helper-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liulml.BILIBILI-UP-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11F7C77289DE5D000A573AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BILIBILI UP Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = PQ97K9KW8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BILIBILI-UP-Helper-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liulml.BILIBILI-UP-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11F7C5D289DE5CF00A573AD /* Build configuration list for PBXProject "BILIBILI UP Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11F7C73289DE5D000A573AD /* Debug */,
+				F11F7C74289DE5D000A573AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11F7C75289DE5D000A573AD /* Build configuration list for PBXNativeTarget "BILIBILI UP Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11F7C76289DE5D000A573AD /* Debug */,
+				F11F7C77289DE5D000A573AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F15A83FB28A761220096F71F /* BILIBILI_UP_Helper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F15A83FC28A761220096F71F /* BILIBILI_UP_ Helper.xcdatamodel */,
+			);
+			currentVersion = F15A83FC28A761220096F71F /* BILIBILI_UP_ Helper.xcdatamodel */;
+			path = BILIBILI_UP_Helper.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F11F7C5A289DE5CF00A573AD /* Project object */;
+}
